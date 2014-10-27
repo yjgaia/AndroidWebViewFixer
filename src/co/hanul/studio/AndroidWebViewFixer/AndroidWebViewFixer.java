@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.webkit.CookieSyncManager;
 import android.webkit.ValueCallback;
@@ -79,7 +80,6 @@ public class AndroidWebViewFixer {
 
 			@Override
 			public void onProgressChanged(WebView view, int progress) {
-
 				if (progressBar != null) {
 					if (progress < 100) {
 						progressBar.setVisibility(ProgressBar.VISIBLE);
