@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.webkit.CookieSyncManager;
 import android.webkit.ValueCallback;
