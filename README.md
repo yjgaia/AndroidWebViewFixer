@@ -28,7 +28,7 @@ AndroidWebViewFixer.onKeyDown(webView, keyCode, event)
 AndroidWebViewFixer.onActivityResult(requestCode, resultCode, intent)
 ```
 
-## example
+## Example
 ```java
 @Override
 public void onCreate(Bundle savedInstanceState) {
