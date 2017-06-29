@@ -7,6 +7,9 @@ fix the poor Android WebView.
 
 ## Install
 Add AndroidWebViewFixer project to Library (eclipse) or add  bin/androidwebviewfixer.jar to your project's libs folder.
+```java
+import co.hanul.studio.AndroidWebViewFixer.AndroidWebViewFixer;
+```
 
 ## Usage
 There are 3 methods.
